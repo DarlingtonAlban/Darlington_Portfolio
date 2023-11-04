@@ -16,7 +16,7 @@
 
 ### Project Overview
 ---
-This data analysis aims to provide insights into sales performance of an e-commerce company over the past year. By analysing various aspects of the sales of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis aims to provide insights into sales performance of an e-commerce company over the past year. By analysing various aspects of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
 
 ### Data Source
 
@@ -76,7 +76,7 @@ The analysis results are summarized as follows:
 
 ### Dashboard
 
-![Ecommerce Sales Dashboard 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/d11245a4-450d-4ba0-bb9c-a5d092c2f15b)
+![Ecommerce Sales Analysis Dashboard 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/5edbb2a5-de4c-449a-8386-dad55118ef23)
 
 ### Recommendations
 
