@@ -3,12 +3,22 @@
 ## Table of contents
 
 - [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Findings](#findings)
+- [Dashboard](#dashboard)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+  
 
 ### Project Overview
 
 This data analysis aims to provide insights into sales performance of an e-commerce company over the past year. By analysing various aspects of the sales of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
 
-### Data Sources
+### Data Source
 
 Sales Data: Data Source
 The data used for this analysis was queries written on a Relational Database management system(MySQL) to return the necessary data containing detailed information about each sales made by the company.
@@ -63,6 +73,10 @@ The analysis results are summarized as follows:
 5. The west region comes out top, making a 34.11% of the total sales accross all region.
 6. Interms of shipment mode, as espected standard class made an increadibles $395,603.52 from sales.
 7. California comes our top as the best performing state with a remarkable $146,388.34 made.
+
+### Dashboard
+
+![US Ecommerce 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/cd9e0a26-1049-402f-bcda-871e4d99b385)
 
 ### Recommendations
 
