@@ -21,7 +21,7 @@ This data analysis aims to provide insights into sales performance of an e-comme
 ### Data Source
 
 Sales Data: Data Source
-The data used for this analysis was queries written on a Relational Database management system(MySQL) to return the necessary data containing detailed information about each sales made by the company.
+The data used for this analysis was queries written on a Relational Database Management System(MySQL) to return the necessary data containing detailed information about each sales made by the company.
 
 ### Tools
 
@@ -31,9 +31,9 @@ The data used for this analysis was queries written on a Relational Database man
 
 ### Data Cleaning
 
-1. Formatted the data.
-2. Removed duplicates.
-3. Remove blanks.
+1. Expoted the data from mysql server to excel
+2. Formatted the data.
+3. Removed duplicates.
 4. Removed null values.
 5. Used text to column function to correct date with error.
 6. Used trim fuction to remove unecessary spaces in the data.
@@ -66,13 +66,31 @@ Select o.order_date, o.row_id, o.order_date, o.shipment_mode,
 ### Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been fluctuating past months, with a noticale as peak in november.
+1. The company's sales have been fluctuating for the past months, with a noticeable peak in november.
 2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with Reasonable $95,554.35 made from sales.
 3. Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
+
+![Sales By sub-categories](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/78334495-3b34-4a89-998f-7c91c0d96941)
+
+
+![Sales By Segment 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be8ccd57-3767-44a7-a4f0-e9b12debfbaf)
+
+  
 4. The peak sales period is november,making an amazing $118,447.83.
 5. The west region comes out top, making a 34.11% of the total sales accross all region.
-6. Interms of shipment mode, as espected standard class made an increadibles $395,603.52 from sales.
+
+![Sales By Order Date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c74925b7-ae29-4910-ae65-3e0c1705df41)
+
+
+![Sales By Region 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/e9c069c6-8341-4138-b70e-354babe919dc)
+
+
+6. Interms of shipment mode, as expected standard class made an increadible $395,603.52 from sales.
 7. California comes our top as the best performing state with a remarkable $146,388.34 made.
+
+![Sales By Shipment Mode 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f817baba-7e1e-43ea-9200-1803dc3f1cdf)
+
+![Sales By State](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/2d899463-9109-4642-883d-e11dfa73f04e)
 
 ### Dashboard
 
@@ -85,7 +103,7 @@ Based on the analysis, i recommend the following actions:
 - Focus on expanding  and promoting products with the lowest sale.
 - implement a customer segmentation strategy to target "home office" customers.
 - Focus more marketing and promotion stategies on eastern region.
-- Priority should be places same day delivery customer by maaking sure that shipment gets to the customer, at the promised time.
+- Priority should be places on same day delivery customer by maaking sure that shipment gets to the customer, at the promised time.
 
 ### Limitations
 
@@ -141,16 +159,27 @@ In the initial data preparation phase, we performed the following tasks:
 
 ### Findings
 
-1. There is an increase in sales for the first four months of the year and there comes a decline in sales for the last two months.
+1. There is an increase in sales for the first four months of the year and there comes a decline in sales for the last two months. The peak sales period is april with an impressive $126,565 made from sales. 
 2. in terms of sales made by each region,all companies combined made their best sales in the south region with a enviable $211,900 made from sales.
+
+![Sales By date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/35185640-4787-437e-ac3a-1d1d13b89be1)
+
+![Sales By Region](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/722847e9-3827-4622-9cae-30e42ec9051f)
+
 3. marc williams is the best performing sales rep accross all companies with a noticeable $123,885 made from sales with eric jones following up closely at $91,015.
 4. Black Energy makes up 14% of the total sales in terms of model and color collectively at best with total sales of $86,800
-5. The peak sales period is april with an impressive $126,565 made from sales.
-6. The best performing company over the month is Bankia Ltd sitting at the top with a total sales of $114,825.
+
+![Sales By Sales Rep](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/595da6c0-88e6-44a0-ac06-c6bac7448fc5)
+
+![Sales By Model   Color](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/150ff607-44d1-44ba-b21c-1865aa949b22)
+
+5. The best performing company over the month is Bankia Ltd leveling above all other company with a total sales of $114,825.
+
+![Sales By Company](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9676996c-4fb0-4f7b-aff9-c7f56e9bbec2)
 
 ### Dashboard
 
-![Sales Analysis Dashboard](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/5d43a348-7206-46c9-be75-9c3c7c4cc59e)
+![Sales Analysis Dashboard - Copy](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/83310784-11e5-47a5-94e2-22aac84411c6)
 
 ### Recommendations
 
@@ -217,10 +246,23 @@ EDA involved exploring the health insurance data to answer key question, such as
 
 1. From the data below it shows that people spend alot of money to insurance their health, meaning that people take their health very seriously as the old saying goes, health is wealth.
 2.In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
-3. The region that is most involed in health insurance is the southeast region.
+3. The region that is most involved in health insurance is the southeast region.
+
+![Capture 3](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/757afdaa-1d4d-4b53-8896-430986ae437a)
+
+![Capture 1](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/94607c27-d93d-4d66-b85f-f3aa0d93d896)
+
 4. Non-smokers spends more on insuring their health.
 5. People who weight between 25.96-35.96 are more actively involved in health insurance.
-6. Couples with no children show the most interest in insuring their health.
+
+![Capture 2](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/b22e6fc7-a2ec-4791-8ad4-8f02c0b66c85)
+
+![Capture 5](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be17cafb-93d0-431e-9d9c-d1a03da79a21)
+
+7. Couples with no children show the most interest in insuring their health.
+
+![Capture 4](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/fd7f62cc-e16f-4cfc-a260-91265e2b1bfc)
+
 
 ### Dashboard
 
@@ -229,7 +271,7 @@ EDA involved exploring the health insurance data to answer key question, such as
 ### Recommendations
 
 Based on the analysis, i advice the following action:
-1. smokers should spend health insurance more seriously as they are pron to health issues.
+1. smokers should spend more health insurance more as they are pron to health issues.
 2. couples with children should prioritise the health of their children.
 
 ### Limitations
