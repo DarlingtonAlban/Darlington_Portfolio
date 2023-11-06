@@ -1,5 +1,3 @@
-theme: jekyll-theme-merlot
-
 # Project 1 : Ecommerce Sales Analysis
 
 ## Table of contents
