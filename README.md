@@ -1,4 +1,4 @@
-remote_theme: Slate theme
+remote_theme: slate
 
 # Project 1 : Ecommerce Sales Analysis
 
