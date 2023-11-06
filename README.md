@@ -1,3 +1,5 @@
+theme: cayman
+
 # Project 1 : Ecommerce Sales Analysis
 
 ## Table of contents
