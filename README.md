@@ -67,8 +67,8 @@ Select o.order_date, o.row_id, o.order_date, o.shipment_mode,
 
 The analysis results are summarized as follows:
 - The company's sales have been fluctuating for the past months, with a noticeable peak in november.
-2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with Reasonable $95,554.35 made from sales.
-3. Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
+-  Phones are the top seller with an impressive $105,340.52 followed closely by chairs with Reasonable $95,554.35 made from sales.
+-   Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
 
 ![Sales By sub-categories](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/78334495-3b34-4a89-998f-7c91c0d96941)
 
@@ -76,8 +76,8 @@ The analysis results are summarized as follows:
 ![Sales By Segment 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be8ccd57-3767-44a7-a4f0-e9b12debfbaf)
 
   
-4. The peak sales period is november,making an amazing $118,447.83.
-5. The west region comes out top, making a 34.11% of the total sales accross all region.
+- The peak sales period is november,making an amazing $118,447.83.
+- The west region comes out top, making a 34.11% of the total sales accross all region.
 
 ![Sales By Order Date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c74925b7-ae29-4910-ae65-3e0c1705df41)
 
@@ -85,8 +85,8 @@ The analysis results are summarized as follows:
 ![Sales By Region 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/e9c069c6-8341-4138-b70e-354babe919dc)
 
 
-6. Interms of shipment mode, as expected standard class made an increadible $395,603.52 from sales.
-7. California comes our top as the best performing state with a remarkable $146,388.34 made.
+- In terms of shipment mode, as expected standard class made an increadible $395,603.52 from sales.
+- California comes our top as the best performing state with a remarkable $146,388.34 made.
 
 ![Sales By Shipment Mode 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f817baba-7e1e-43ea-9200-1803dc3f1cdf)
 
