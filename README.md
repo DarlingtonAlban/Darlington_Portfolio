@@ -1,4 +1,4 @@
-theme: cayman
+theme: minima
 
 # Project 1 : Ecommerce Sales Analysis
 
