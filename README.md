@@ -259,7 +259,7 @@ EDA involved exploring the health insurance data to answer key question, such as
 
 ![Capture 5](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be17cafb-93d0-431e-9d9c-d1a03da79a21)
 
-7. Couples with no children show the most interest in insuring their health.
+6. Couples with no children show the most interest in insuring their health.
 
 ![Capture 4](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/fd7f62cc-e16f-4cfc-a260-91265e2b1bfc)
 
