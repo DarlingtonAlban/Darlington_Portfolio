@@ -66,7 +66,7 @@ Select o.order_date, o.row_id, o.order_date, o.shipment_mode,
 ### Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been fluctuating for the past months, with a noticeable peak in november.
+- The company's sales have been fluctuating for the past months, with a noticeable peak in november.
 2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with Reasonable $95,554.35 made from sales.
 3. Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
 
