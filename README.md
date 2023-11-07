@@ -245,28 +245,27 @@ EDA involved exploring the health insurance data to answer key question, such as
 ### Results
 
 1. From the data below it shows that people spend alot of money to insurance their health, meaning that people take their health very seriously as the old saying goes, health is wealth.
-2.In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
+2. In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
 3. The region that is most involved in health insurance is the southeast region.
 
-![Capture 3](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/757afdaa-1d4d-4b53-8896-430986ae437a)
+![Insurance By Age   Sex](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/d44f636b-f2a9-4cf0-9bf8-5098b995f04b)
 
-![Capture 1](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/94607c27-d93d-4d66-b85f-f3aa0d93d896)
+![Insurance By Region](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c087e1fa-de45-466d-8f95-7c6c9a94f2fc)
 
 4. Non-smokers spends more on insuring their health.
 5. People who weight between 25.96-35.96 are more actively involved in health insurance.
 
-![Capture 2](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/b22e6fc7-a2ec-4791-8ad4-8f02c0b66c85)
+![Insurance By Smoker Status](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/3301e98f-1109-4c8a-bdbd-872592e48456)
 
-![Capture 5](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be17cafb-93d0-431e-9d9c-d1a03da79a21)
+![Insurance By Weight](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9c2351f5-2f1f-49ec-a681-fd686c8cec2f)
 
 6. Couples with no children show the most interest in insuring their health.
 
-![Capture 4](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/fd7f62cc-e16f-4cfc-a260-91265e2b1bfc)
-
+![Insurance By Children](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/089926db-9971-40b1-b16f-d3b5d95509d4)
 
 ### Dashboard
 
-![Capture 6](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9ce062a7-3f26-46cb-9f6b-b07092772ca1)
+![Insurance Dashboard](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/44bc1865-93ba-4db8-b766-d39507da9aa0)
 
 ### Recommendations
 
@@ -276,4 +275,4 @@ Based on the analysis, i advice the following action:
 
 ### Limitations
 
-i had to remove the zeros on the charges column which would have affected the accuracy of my analysis and conclusion.
+i had to remove some missing values on the charges column and the weight column which would have affected the accuracy of my analysis and conclusion.
