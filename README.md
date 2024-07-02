@@ -38,18 +38,17 @@ The data used for this analysis was queries written on a Relational Database Man
 5. Used text to column function to correct date with error.
 6. Used trim fuction to remove unecessary spaces in the data.
 
-### Explanatory Data Analysis 
+### Exploratory Data Analysis 
 
-EDA involve exploring the sales data to answer key questions, such as:
+EDA involve exploring the HR data to answer key questions, such as:
 
-- What is the overall sales trend?
-- What products are the top sellers?
-- What are the peak sales period?
-- What region made the most sales?
-- What segment of the customer was sales made the most?
-- What was the most used shipment mode for sales?
-- What state made the most sales? 
-
+- Which department has the most employees?
+- What is the number of candidates recruited each year?
+- What is the number of employees according to their marital status?
+- What is the ratings of the employee according to their perfomance score?
+- Which gender has the most employeed
+- Which state has the most employees?
+  
 ### Data Analysis
 
 ```sql
@@ -109,8 +108,43 @@ Based on the analysis, i recommend the following actions:
 
 i had to remove all null values from the revenue column because they would have affected the accuray of my conclusion from the analysis.
 
+# Project 2: HR Analysis
 
-# Project 2: Sales Analysis
+## Table Of Content
+
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Findings](#findings)
+- [Dashboard](#dashboard)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
+### Project Overview
+---
+This data analysis project aims to provide insight into the hr recruitment perfomance of the company over the years, By analysing various aspects of the hr data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the hr perfomances.
+
+### Data Source
+
+HR Data: the primary dataset used for this analysis is the "HR_dataset.excel" file given to me by a friend, containing detailed information about employees perfomance in the company.
+
+### Tools
+
+- PowerBi(Creating Report)
+- PowerQuery(Data Cleaning)
+- DAX Function(Employee Head Count)
+
+### Data Cleaning
+
+1. Expoted the data excel to powerbi
+2. Formatted the data
+3. Removed duplicate
+4. Removed Unwanted Column
+5. Replaced null values
+
+# Project 3: Sales Analysis
 
 ## Table Of Content
 
@@ -137,7 +171,7 @@ Sales Data: the primary dataset used for this analysis is the "sales_data.excel"
 -Excel - For Data Cleaning
 -Tableau - For Creating Report
               
-### Data Cleaning
+### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data Loading and Inspection
@@ -148,7 +182,7 @@ In the initial data preparation phase, we performed the following tasks:
 6. Used Upper case funtion
 7. Removed duplicates
 
-### Explanatory Data Analysis
+### Exploratory Data Analysis
 
 - What is the overall sales trend
 - What region made the most sales
@@ -193,7 +227,7 @@ In the initial data preparation phase, we performed the following tasks:
 I had to remove unecessary blanks that would have distorted the accuracy of my analysis and conclusions.
 
 
-# Project 3: Health Insurance Analysis
+# Project 4: Health Insurance Analysis
 
 ## Table Of Contents
 
