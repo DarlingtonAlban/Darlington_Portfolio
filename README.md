@@ -16,7 +16,7 @@
 
 ### Project Overview
 ---
-This data analysis aims to provide insights into sales performance of an e-commerce company over the past year. By analysing various aspects of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis aims to provide insights into sales performance of an e-commerce company over the past years. By analysing various aspects of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
 
 ### Data Source
 
@@ -31,7 +31,7 @@ The data used for this analysis was queries written on a Relational Database Man
 
 ### Data Cleaning
 
-1. Expoted the data from mysql server to excel
+1. Exported the data from mysql server to excel
 2. Formatted the data.
 3. Removed duplicates.
 4. Removed null values.
@@ -42,12 +42,13 @@ The data used for this analysis was queries written on a Relational Database Man
 
 EDA involve exploring the HR data to answer key questions, such as:
 
-- Which department has the most employees?
-- What is the number of candidates recruited each year?
-- What is the number of employees according to their marital status?
-- What is the ratings of the employee according to their perfomance score?
-- Which gender has the most employeed
-- Which state has the most employees?
+- What is the company sales over the years?
+- Which of the company's product sold the most?
+- Which segment of the company made more sales?
+- What is the best performing month of sales for the company?
+- Which region came out top in terms of sales?
+- Which mode of shipment realized the most sales?
+- Which state is the best performing state in terms of sales?
   
 ### Data Analysis
 
@@ -65,9 +66,9 @@ Select o.order_date, o.row_id, o.order_date, o.shipment_mode,
 ### Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been fluctuating for the past months, with a noticeable peak in november.
-2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with Reasonable $95,554.35 made from sales.
-3.  Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
+1. The company's sales have been flunctuating for the past months, with a noticeable peak in november.
+2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with a reasonable $95,554.35 made from sales.
+3. Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
 
 ![Sales By sub-categories](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/78334495-3b34-4a89-998f-7c91c0d96941)
 
@@ -85,7 +86,7 @@ The analysis results are summarized as follows:
 
 
 6. In terms of shipment mode, as expected standard class made an increadible $395,603.52 from sales.
-7. California comes our top as the best performing state with a remarkable $146,388.34 made.
+7. California comes out top as the best performing state with a remarkable $146,388.34 made.
 
 ![Sales By Shipment Mode 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f817baba-7e1e-43ea-9200-1803dc3f1cdf)
 
@@ -124,7 +125,7 @@ i had to remove all null values from the revenue column because they would have 
 
 ### Project Overview
 ---
-This data analysis project aims to provide insight into the hr recruitment perfomance of the company over the years, By analysing various aspects of the hr data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the hr perfomances.
+This data analysis project aims to provide insight into the HR recruitment performance of the company over the years, By analysing various aspects of the hr data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the hr perfomances.
 
 ### Data Source
 
@@ -138,13 +139,28 @@ HR Data: the primary dataset used for this analysis is the "HR_dataset.excel" fi
 
 ### Data Cleaning
 
-1. Expoted the data excel to powerbi
+1. Exported the data excel to powerbi
 2. Formatted the data
-3. Removed duplicate
-4. Removed Unwanted Column
+3. Removed duplicates
+4. Removed Unwanted Columns
 5. Replaced null values
 
+### Exploratory Data Analysis 
+
+EDA involve exploring the HR data to answer key questions, such as:
+
+- Which department has the most employees?
+- What is the number of candidates recruited each year?
+- What is the number of employees according to their marital status?
+- What is the ratings of the employee according to their perfomance score?
+- Which gender has the most employee?
+- Which state has the most employees?
+
+### Findings
+
 # Project 3: Sales Analysis
+
+1.
 
 ## Table Of Content
 
@@ -184,12 +200,12 @@ In the initial data preparation phase, we performed the following tasks:
 
 ### Exploratory Data Analysis
 
-- What is the overall sales trend
-- What region made the most sales
-- Who is the best performing sales rep
-- Which product are the  top sellers
-- What are the peak sales period
-- Which companies are the top seller
+- What is the overall sales trend?
+- What region made the most sales?
+- Who is the best performing sales rep?
+- Which product are the  top sellers?
+- What are the peak sales period?
+- Which companies are the top seller?
 
 ### Findings
 
