@@ -6,7 +6,7 @@
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Findings](#findings)
 - [Dashboard](#dashboard)
@@ -117,7 +117,7 @@ i had to remove all null values from the revenue column because they would have 
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Findings](#findings)
 - [Dashboard](#dashboard)
 - [Recommendations](#recommendations)
@@ -149,7 +149,7 @@ HR Data: the primary dataset used for this analysis is the "HR_dataset.excel" fi
 
 EDA involve exploring the HR data to answer key questions, such as:
 
-- Which department has the most employees?
+- Which department reacives the most salary?
 - What is the number of candidates recruited each year?
 - What is the number of employees according to their marital status?
 - What is the ratings of the employee according to their perfomance score?
@@ -158,9 +158,15 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ### Findings
 
+1. The product department of the company received the most salary at a whooping sum of $12.5m over the years.
+2. 2011 has the most employee intake with a total of 83 candidates.
+3. Single makes up 44.05% of the total employees as regards marital status.
+4. The company record the highest number of employees who fully meets their target at a total of 243 candidates.
+5. The male employees makes up 43.41% of the total employees while the female employees makes up 56.57% of the total employees gender wise.
+6. Employees from texas received the most salary at a combined $222,427.
+
 # Project 3: Sales Analysis
 
-1.
 
 ## Table Of Content
 
@@ -168,7 +174,7 @@ EDA involve exploring the HR data to answer key questions, such as:
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Findings](#findings)
 - [Dashboard](#dashboard)
 - [Recommendations](#recommendations)
@@ -251,7 +257,7 @@ I had to remove unecessary blanks that would have distorted the accuracy of my a
 - [Data Source](#data-source)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
-- [Explanatory Data Analysis](#explanatory-data-analysis)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Results](#results)
 - [Dashborad](#dashboard)
 - [Recommendations](#recommendations)
