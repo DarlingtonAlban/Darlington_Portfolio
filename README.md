@@ -120,7 +120,6 @@ i had to remove all null values from the revenue column because they would have 
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Findings](#findings)
 - [Dashboard](#dashboard)
-- [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
 ### Project Overview
@@ -165,14 +164,15 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ![HR Candidate Recruitment By Year](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/dfc894e8-0f0f-4358-a820-36c862a2a666)
 
-4. Single makes up 44.05% of the total employees as regards marital status.
-5. The company record the highest number of employees who fully meets their target at a total of 243 candidates.
+3. Single makes up 44.05% of the total employees as regards marital status.
+4. The company record the highest number of employees who fully meets their target at a total of 243 candidates.
+
 ![HR Candidate By Marital Desc](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9df9ca2b-b8f9-4904-b44a-76ddcc835679)
 
 ![HR Candidate By Perfomance Score](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/d75bbaa0-a448-4457-813d-bb7fa6f056c7)
 
-6. The male employees makes up 43.41% of the total employees while the female employees makes up 56.57% of the total employees gender wise.
-7. Employees from texas received the most salary at a combined $222,427.
+5. The male employees makes up 43.41% of the total employees while the female employees makes up 56.57% of the total employees gender wise.
+6. Employees from texas received the most salary at a combined $222,427.
 
 ![HR Candidate By Sex](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/949599d4-d69e-4d51-89f8-aca4a8ad2af0)
 
@@ -181,6 +181,10 @@ EDA involve exploring the HR data to answer key questions, such as:
 ### Dashboard
 
 ![HR Dashboard](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f028ce5c-70c1-4545-83e8-4923c72590d2)
+
+### Limitation
+1. I had to delete some columns which would have affected the accuracy of my analysis
+2. I had to replace null values with zero avoid incosistency in my analysi
 
 
 # Project 3: Sales Analysis
