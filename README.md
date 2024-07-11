@@ -77,7 +77,7 @@ The analysis results are summarized as follows:
 
   
 4. The peak sales period is november,making an amazing $118,447.83.
-5. The west region comes out top, making a 34.11% of the total sales accross all region.
+5. The west region comes out top, with a 34.11% of the total sales accross all region.
 
 ![Sales By Order Date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c74925b7-ae29-4910-ae65-3e0c1705df41)
 
@@ -184,10 +184,10 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ### Limitation
 1. I had to delete some columns which would have affected the accuracy of my analysis
-2. I had to replace null values with zero avoid incosistency in my analysi
+2. I had to replace null values with zero to avoid incosistency in my analysis
 
 
-# Project 3: Sales Analysis
+# Project 3 : Sales Analysis
 
 
 ## Table Of Content
@@ -326,24 +326,25 @@ EDA involved exploring the health insurance data to answer key question, such as
 2. In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
 3. The region that is most involved in health insurance is the southeast region.
 
-![Insurance By Age   Sex](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/d44f636b-f2a9-4cf0-9bf8-5098b995f04b)
+![Heath Age](https://github.com/user-attachments/assets/37d2e03f-6255-496f-9129-67fd2dd11ec4)
 
-![Insurance By Region](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c087e1fa-de45-466d-8f95-7c6c9a94f2fc)
+![Health Region](https://github.com/user-attachments/assets/a63ce77b-aaf5-4d52-94dd-bf42cd81485a)
+![Health Gender](https://github.com/user-attachments/assets/ac66faab-0067-40f4-8ef6-2325e69bcd37)
 
 4. Non-smokers spends more on insuring their health.
 5. People who weight between 25.96-35.96 are more actively involved in health insurance.
 
-![Insurance By Smoker Status](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/3301e98f-1109-4c8a-bdbd-872592e48456)
+![Health Smoker Status](https://github.com/user-attachments/assets/c7dedc71-a1e1-439c-9c1f-f87e64a02407)
 
-![Insurance By Weight](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9c2351f5-2f1f-49ec-a681-fd686c8cec2f)
+![Health BMI](https://github.com/user-attachments/assets/49586dbc-6d5f-4e25-aff2-6f717be83321)
 
 6. Couples with no children show the most interest in insuring their health.
 
-![Insurance By Children](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/089926db-9971-40b1-b16f-d3b5d95509d4)
+![Health Children](https://github.com/user-attachments/assets/659bc09f-4917-467f-8cab-7bd50308f03a)
 
 ### Dashboard
 
-![Insurance Dashboard](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/44bc1865-93ba-4db8-b766-d39507da9aa0)
+![Health Insurance Dashboard](https://github.com/user-attachments/assets/b4e8e121-db4b-4ebf-8df0-5c7de63174b5)
 
 ### Recommendations
 
