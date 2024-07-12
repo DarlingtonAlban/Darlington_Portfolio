@@ -314,7 +314,8 @@ In the initial data preparation phase, we performed the following task:
 EDA involved exploring the health insurance data to answer key question, such as:
 
 - What is the total amount spent by individuals and families on health insurance combined.
-- Which gender and the age range spent more on health insurance simultaneously.
+- Which gender spent more on health insurance simultaneously.
+- What is the age range of the poeple that spent most on insuring their health
 - Which region spent more on health insurance.
 - who is more involved in health insurance between smokers and non-smokers.
 - the amount people of a various weight range sepnd on health insurance.
@@ -322,7 +323,7 @@ EDA involved exploring the health insurance data to answer key question, such as
 
 ### Results
 
-1. From the data below it shows that people spend alot of money to insurance their health, meaning that people take their health very seriously as the old saying goes, health is wealth.
+1. From the data below it shows that people spend alot of money to insurance their health which totals $17,755,824.9, meaning that people take their health very seriously as the old saying goes, health is wealth.
 2. In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
 3. The region that is most involved in health insurance is the southeast region.
 
