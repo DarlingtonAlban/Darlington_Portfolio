@@ -324,24 +324,26 @@ EDA involved exploring the health insurance data to answer key question, such as
 ### Results
 
 1. From the data below it shows that people spend alot of money to insurance their health which totals $17,755,824.9, meaning that people take their health very seriously as the old saying goes, health is wealth.
-2. In terms of age and gender,men between the age of 48-57 take their health insurance very seriously as they spend more on insuring their health.
-3. The region that is most involved in health insurance is the southeast region.
+2. gender wise men spent a remarkable $ $9,434,763.80 as opposed to the female counterpart with sum of  $8,321,061.19
+3. A total of $4,430,668.80 was spent by people between the age range of 48-57 as people within this age bracket are more vulnerable to health issues.
+
+![Health Gender](https://github.com/user-attachments/assets/ac66faab-0067-40f4-8ef6-2325e69bcd37)
 
 ![Heath Age](https://github.com/user-attachments/assets/37d2e03f-6255-496f-9129-67fd2dd11ec4)
 
-![Health Region](https://github.com/user-attachments/assets/a63ce77b-aaf5-4d52-94dd-bf42cd81485a)
-![Health Gender](https://github.com/user-attachments/assets/ac66faab-0067-40f4-8ef6-2325e69bcd37)
+4. The region that is most involved in health insurance is the southeast region which account for 30.21% of the total spendings on health insurance.
+5. Within the smokers status pool,non-smokers spends more on insuring their health with a total of $8,974,061.47
 
-4. Non-smokers spends more on insuring their health.
-5. People who weight between 25.96-35.96 are more actively involved in health insurance.
+![Health Region](https://github.com/user-attachments/assets/a63ce77b-aaf5-4d52-94dd-bf42cd81485a)
 
 ![Health Smoker Status](https://github.com/user-attachments/assets/c7dedc71-a1e1-439c-9c1f-f87e64a02407)
 
-![Health BMI](https://github.com/user-attachments/assets/49586dbc-6d5f-4e25-aff2-6f717be83321)
-
-6. Couples with no children show the most interest in insuring their health.
+6. People who weight between 25.96-35.96 are more actively involved in health insurance.
+7. Couples with no children show the most interest in insuring their health sepnding a remarkable $7,098,070.00.
 
 ![Health Children](https://github.com/user-attachments/assets/659bc09f-4917-467f-8cab-7bd50308f03a)
+
+![Health BMI](https://github.com/user-attachments/assets/49586dbc-6d5f-4e25-aff2-6f717be83321)
 
 ### Dashboard
 
