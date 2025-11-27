@@ -1,4 +1,4 @@
-# Project 1 : Ecommerce Sales Analysis
+# Project 1 : Sales Analysis 2023 Vs 2024
 
 ## Table of contents
 
@@ -7,7 +7,6 @@
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
 - [Findings](#findings)
 - [Dashboard](#dashboard)
 - [Recommendations](#recommendations)
@@ -16,68 +15,49 @@
 
 ### Project Overview
 ---
-This data analysis aims to provide insights into sales performance of an e-commerce company over the past years. By analysing various aspects of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis aims to provide insights into the sales performance of an organisation comparing both the current year and previous year to determine the best performing year. By analysing various aspects of the sales data set, i seek to identify trends, make data driven recommendations, and gain a deeper understanding of the company's performance.
 
 ### Data Source
 
 Sales Data: Data Source
-The data used for this analysis was queries written on a Relational Database Management System(MySQL) to return the necessary data containing detailed information about each sales made by the company.
-
+The primary dataset used for this analysis "product_sales_dataset.csv" file was downloaded from kaggle, containing detailed information about sales performance between two years.
 ### Tools
 
-- Excel - Data Cleaning
-- MySQL Server - Data Analysis
-- Tableau - Creating Report
+- Excel - Data Cleaning, Data Analysis & Creating Report
 
 ### Data Cleaning
 
-1. Exported the data from mysql server to excel
+1. Converted The Csv File to excel
 2. Formatted the data.
 3. Removed duplicates.
 4. Removed null values.
 5. Used text to column function to correct date with error.
 6. Used trim fuction to remove unecessary spaces in the data.
+7. Removed uneccessary blanks
 
 ### Exploratory Data Analysis 
 
-EDA involve exploring the HR data to answer key questions, such as:
+EDA involve exploring the Sales data to answer key questions, such as:
 
-- What is the company sales over the years?
-- Which of the company's product sold the most?
-- Which segment of the company made more sales?
-- What is the best performing month of sales for the company?
-- Which region came out top in terms of sales?
-- Which mode of shipment realized the most sales?
-- Which state is the best performing state in terms of sales?
-  
-### Data Analysis
-
-```sql
-Select o.order_date, o.row_id, o.order_date, o.shipment_mode,
-       c.customer_id, c.segment, c.country, c.city, c.state,c.postal_code,c.region
-       p.product_id,p.category,p.product_name,p.sales
-       From Orders o
-       Left Join customer c
-       On o.customer_id = c.customer_id
-       Left Join Products p
-       On o.order_id = p.order_id
-```
+- What is the company's year on year revenue?
+- What is the company's year on year profit?
+- What is the company's year on year average unit price?
+- What is the company's year on year Quantity Sold?
+- Which product categories sold the most comparing both years?
+- In which state did the company made the most sales?
+- Who are the top five loyal customers that made the most patronage?
+- What is the sales trend between both years?
+- What is the top ten selling product between both years?
 
 ### Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been flunctuating for the past months, with a noticeable peak in november.
-2. Phones are the top seller with an impressive $105,340.52 followed closely by chairs with a reasonable $95,554.35 made from sales.
-3. Within the segment pool, an unbeliveable $331,904.70 was made from consumer.
-
-![Sales By sub-categories](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/78334495-3b34-4a89-998f-7c91c0d96941)
-
-
-![Sales By Segment 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/be8ccd57-3767-44a7-a4f0-e9b12debfbaf)
-
-  
-4. The peak sales period is november,making an amazing $118,447.83.
-5. The west region comes out top, with a 34.11% of the total sales accross all region.
+1. The company witnessed a 1% increase in revenue between 2023 and 2024.
+2. The compare also realise a bear increase in total profit between 2023 and 2024 by 1% as well.
+3. The average unit price remained the same as there no increase or decrease comparing both years.
+4. The year on year quantity sold by the company was bearly a 1% increase.
+5. The company made more sales on electronics among all categories of product realising an increase in sales from $28.5M in 2023 to $28.9M in 2024.
+6. Arizona comes out top as the best performing state with a remarkable $6.7M made.
 
 ![Sales By Order Date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c74925b7-ae29-4910-ae65-3e0c1705df41)
 
@@ -85,12 +65,14 @@ The analysis results are summarized as follows:
 ![Sales By Region 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/e9c069c6-8341-4138-b70e-354babe919dc)
 
 
-6. In terms of shipment mode, as expected standard class made an increadible $395,603.52 from sales.
-7. California comes out top as the best performing state with a remarkable $146,388.34 made.
+7. In terms of quanity sold, Mr. Michael Smith appears to be our most loyal customer with a total	of 184 quantity of items bought between 2023 and 2024.
+8. The sales trend of the company shows that november was the best performing month between 2023 and 2024 realising an increase insales as well, with a total of $13.4M and $13.9M respectively.
 
 ![Sales By Shipment Mode 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f817baba-7e1e-43ea-9200-1803dc3f1cdf)
 
 ![Sales By State](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/2d899463-9109-4642-883d-e11dfa73f04e)
+
+9. The top ten selling product of the company made a total of $30.1M in 2023 and also as witness a 1% increase in 2024 with a total revenue of $30.7M.
 
 ### Dashboard
 
@@ -101,13 +83,15 @@ The analysis results are summarized as follows:
 Based on the analysis, i recommend the following actions:
 - invest in marketing and promotion during the peak sale period.
 - Focus on expanding  and promoting products with the lowest sale.
-- implement a customer segmentation strategy to target "home office" customers.
-- Focus more marketing and promotion stategies on eastern region.
-- Priority should be places on same day delivery customer by maaking sure that shipment gets to the customer, at the promised time.
+- Focus on increasing the budget on social media for wider outreach.
+- Collaborate with social media influencers to increase sale.
+- Give discounts to encourage purchase
+- The company shoould lower their price a little bit as it shows from my analysis that there was just 1% increase in sales,revenue and profit in the following year while the unit price of items remained the same.
 
 ### Limitations
 
-i had to remove all null values from the revenue column because they would have affected the accuray of my conclusion from the analysis.
+1.I had to remove all null values from the revenue column because they would have affected the accuracy of my conclusion from the analysis.
+2.I had to remove unecessary blank as well which aslo would have affected the accuracy of my analysis
 
 # Project 2: HR Analysis
 
@@ -124,17 +108,21 @@ i had to remove all null values from the revenue column because they would have 
 
 ### Project Overview
 ---
-This data analysis project aims to provide insight into the HR recruitment performance of the company over the years, By analysing various aspects of the hr data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the hr perfomances.
+This data analysis project aims to provide insight into the HR recruitment performance of the company over the years to generate reasonable income for the company, By analysing various aspects of the hr data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the hr perfomances.
 
 ### Data Source
 
-HR Data: the primary dataset used for this analysis is the "HR_dataset.excel" file given to me by a friend, containing detailed information about employees perfomance in the company.
+HR Data: the primary dataset used for this analysis is the "HR_Employment_Attrittion.excel" file given to me by a friend, containing detailed information about employees perfomance in the company.
 
 ### Tools
 
-- PowerBi(Creating Report)
 - PowerQuery(Data Cleaning)
+- PowerBi(Creating Report)
 - DAX Function(Employee Head Count)
+- DAX(Total Monthly Income)
+- DAX(Total Monthly Rate)
+- DAX(Average Working Years)
+- DAX(Average Hourly Rate)
 
 ### Data Cleaning
 
