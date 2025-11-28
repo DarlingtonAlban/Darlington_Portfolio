@@ -59,24 +59,25 @@ The analysis results are summarized as follows:
 5. The company made more sales on electronics among all categories of product realising an increase in sales from $28.5M in 2023 to $28.9M in 2024.
 6. Arizona comes out top as the best performing state with a remarkable $6.7M made.
 
-![Sales By Order Date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/c74925b7-ae29-4910-ae65-3e0c1705df41)
+<img width="364" height="220" alt="Sale 2023 vs 2024 categories" src="https://github.com/user-attachments/assets/899152ba-899c-4266-af49-03148211f016" />
 
-
-![Sales By Region 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/e9c069c6-8341-4138-b70e-354babe919dc)
-
+<img width="364" height="220" alt="Sales 2023 vs 2024 state" src="https://github.com/user-attachments/assets/e5fab842-2132-4924-b504-6195cb436a26" />
 
 7. In terms of quanity sold, Mr. Michael Smith appears to be our most loyal customer with a total	of 184 quantity of items bought between 2023 and 2024.
 8. The sales trend of the company shows that november was the best performing month between 2023 and 2024 realising an increase insales as well, with a total of $13.4M and $13.9M respectively.
 
-![Sales By Shipment Mode 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f817baba-7e1e-43ea-9200-1803dc3f1cdf)
+<img width="364" height="220" alt="Sale 2023 vs 2024 Customers" src="https://github.com/user-attachments/assets/4920c529-c961-4a99-bf53-78378fc90e30" />
 
-![Sales By State](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/2d899463-9109-4642-883d-e11dfa73f04e)
+<img width="364" height="210" alt="Sale 2023 vs 2024 trend" src="https://github.com/user-attachments/assets/5c770947-94b1-41dd-9c11-9ee42d1da955" />
 
 9. The top ten selling product of the company made a total of $30.1M in 2023 and also as witness a 1% increase in 2024 with a total revenue of $30.7M.
+    
+<img width="364" height="220" alt="Sale 2023 vs 2024 product" src="https://github.com/user-attachments/assets/5d104b93-ed5e-4d9b-9df7-8d1da158bd1d" />
 
 ### Dashboard
 
-![Ecommerce Sales Analysis Dashboard 2020](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/5edbb2a5-de4c-449a-8386-dad55118ef23)
+<img width="1191" height="541" alt="Sales Analysis Dashbaord 2023 vs 2024" src="https://github.com/user-attachments/assets/9dd5608a-532a-4024-ae98-fe30fe38052c" />
+
 
 ### Recommendations
 
@@ -136,7 +137,7 @@ HR Data: the primary dataset used for this analysis is the "HR_Employment_Attrit
 
 EDA involve exploring the HR data to answer key questions, such as:
 
-- Which department reacives the most salary?
+- Which department receives the most salary?
 - What is the number of candidates recruited each year?
 - What is the number of employees according to their marital status?
 - What is the ratings of the employee according to their perfomance score?
@@ -175,7 +176,7 @@ EDA involve exploring the HR data to answer key questions, such as:
 2. I had to replace null values with zero to avoid incosistency in my analysis
 
 
-# Project 3 : Sales Analysis
+# Project 3 : Grocery Inventory Analysis
 
 
 ## Table Of Content
@@ -192,36 +193,37 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ### Project Overview
 ---
-This data analysis project aims to provide insight into the sales performance of a group of companies over the months, By analysing various aspects of the sales data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the companies perfomances.
+This data analysis project aims to provide insight into inventory performance of the company, By analysing various aspects of the inventory data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the companies perfomances.
 
 ### Data Source
 
-Sales Data: the primary dataset used for this analysis is the "sales_data.excel" file from my google data analytics project, containing detailed information about each sales made by each company.
+Sales Data: the primary dataset used for this analysis is the "grocery_inventory.csv" file from my google data analytics project, containing detailed information about each sales made by each company.
 
 ### Tools
 
--Excel - For Data Cleaning
--Tableau - For Creating Report
+-Excel - For Data Cleaning,Data analysis and Creating Report
               
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data Loading and Inspection
 2. Formatted the data
-3. Used Vlook up to look up the values of other tables(company and representatives) in the main excel sheet as the excel file contained two sheets.
-4. Data Formating
-5. Used Trim function to remove unecessary spaces
-6. Used Upper case funtion
-7. Removed duplicates
+3. Data Formating
+4. Used Trim function to remove unecessary spaces
+5. Used Upper case funtion
+6. Removed duplicates
 
 ### Exploratory Data Analysis
 
-- What is the overall sales trend?
-- What region made the most sales?
-- Who is the best performing sales rep?
-- Which product are the  top sellers?
-- What are the peak sales period?
-- Which companies are the top seller?
+- What is the company's total sales?
+- What is the average unit price of items sold?
+- What is the company's total stock inventory over the year?
+- What is the company's average turnover rate?
+- Who are the top ten product suppliers
+- What are the top five product according to turnover rate?
+- What are the top twenty selling products?
+- What is the sales by product categories?
+- What is the sales by order status?
 
 ### Findings
 
