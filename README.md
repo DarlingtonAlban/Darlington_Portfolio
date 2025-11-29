@@ -193,11 +193,11 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ### Project Overview
 ---
-This data analysis project aims to provide insight into inventory performance of the company, By analysing various aspects of the inventory data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the companies perfomances.
+This data analysis project aims to provide insight into inventory performance of the company between 2024 and 2025, By analysing various aspects of the inventory data, we seek to identify trends, make data driven decision and recommendation, and gain understanding of the companies perfomances.
 
 ### Data Source
 
-Sales Data: the primary dataset used for this analysis is the "grocery_inventory.csv" file from my google data analytics project, containing detailed information about each sales made by each company.
+Grocery Inventory Data: the primary dataset used for this analysis is the "grocery_inventory.csv" file from my google data analytics project, containing detailed information about each sales made by each company.
 
 ### Tools
 
@@ -219,42 +219,49 @@ In the initial data preparation phase, we performed the following tasks:
 - What is the average unit price of items sold?
 - What is the company's total stock inventory over the year?
 - What is the company's average turnover rate?
-- Who are the top ten product suppliers
+- Who are the top ten product suppliers?
 - What are the top five product according to turnover rate?
-- What are the top twenty selling products?
+- What are the top ten selling products?
 - What is the sales by product categories?
 - What is the sales by order status?
 
 ### Findings
 
-1. There is an increase in sales for the first four months of the year and there comes a decline in sales for the last two months. The peak sales period is april with an impressive $126,565 made from sales. 
-2. in terms of sales made by each region,all companies combined made their best sales in the south region with a enviable $211,900 made from sales.
+1. The company's made a whoping $341.6M total sales over the past two years.
+2. The average of items sold by the company is  $5.92.
+3. The total stock inventory of the company between 2024 and 2025 was 54,959 items.
+4. The average turnover rate of the company's inventory was 50.1.
+5. Our top five supplier are Katz,Twitterwire,meevee,Quatz and Feedfire with Katz toping the list with a whoping 701 supplies of items.
+6. The turnover rate according to product shows that bread flour still remains the leading product with a turnover rate of 23.61%.
 
-![Sales By date](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/35185640-4787-437e-ac3a-1d1d13b89be1)
+<img width="364" height="220" alt="Grocery Suppliers" src="https://github.com/user-attachments/assets/a721590c-23c9-4315-8f2b-114b8ca6e7a4" />
 
-![Sales By Region](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/722847e9-3827-4622-9cae-30e42ec9051f)
 
-3. marc williams is the best performing sales rep accross all companies with a noticeable $123,885 made from sales with eric jones following up closely at $91,015.
-4. Black Energy makes up 14% of the total sales in terms of model and color collectively at best with total sales of $86,800
+<img width="364" height="220" alt="Grocery Turnover rate" src="https://github.com/user-attachments/assets/ca67140b-3037-4676-b6ae-2e49bdae1f55" />
 
-![Sales By Sales Rep](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/595da6c0-88e6-44a0-ac06-c6bac7448fc5)
 
-![Sales By Model   Color](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/150ff607-44d1-44ba-b21c-1865aa949b22)
+7. in terms of quantity sold,our top ten perfoming product totaled 8,444 qauntity sold with bread flour toping the list with a total of 1002 quantity sold
+8. Fruits & vegetables stood out as the best selling items within the product categories pool totaling an amazing $34.4M
 
-5. The best performing company over the month is Bankia Ltd leveling above all other company with a total sales of $114,825.
+<img width="264" height="300" alt="Grocery selling top ten" src="https://github.com/user-attachments/assets/4963d404-8e65-496a-a500-f3866b897c53" />
 
-![Sales By Company](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9676996c-4fb0-4f7b-aff9-c7f56e9bbec2)
+
+<img width="364" height="220" alt="Grocery Categories" src="https://github.com/user-attachments/assets/fb0506c6-ccf7-4fec-b29b-8b3cd81043f6" />
+
+5. In terms of sales order status, orders with active status made the most sales as expect, with a remarkable total of $42.1M.
+
+<img width="364" height="220" alt="Grocery Order Status" src="https://github.com/user-attachments/assets/331c4912-8b80-4ba2-a7c5-96263a077eea" />
 
 ### Dashboard
 
-![Sales Analysis Dashboard - Copy](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/83310784-11e5-47a5-94e2-22aac84411c6)
+<img width="962" height="543" alt="Grocery Inventory Dashboard" src="https://github.com/user-attachments/assets/f1593a61-a98f-4ccd-810f-8208cea4a8ca" />
 
 ### Recommendations
 
 - invest in marketing and promotion during the peak sale period
-- give sales reps incentives and commission to encourage sales
-- focus more marketing strategies on the  north region to improve sales
-- focus on filling and expanding the stores with no products to boost sales
+- Order more of the items with a good turnover rate
+- Offering discount on product with low turnover rate to increase sales
+- focus on filling and expanding the stores with low products to boost sales
 
 ### Limitations
 
