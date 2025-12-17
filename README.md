@@ -113,7 +113,7 @@ This data analysis project aims to provide insight into the HR recruitment perfo
 
 ### Data Source
 
-HR Data: the primary dataset used for this analysis is the "HR_Employment_Attrittion.excel" file given to me by a friend, containing detailed information about employees perfomance in the company.
+HR Data: the primary dataset used for this analysis is the "HR_Employment_Attrition.excel" file given to me by a friend, containing detailed information about employees perfomance in the company.
 
 ### Tools
 
@@ -138,42 +138,43 @@ HR Data: the primary dataset used for this analysis is the "HR_Employment_Attrit
 EDA involve exploring the HR data to answer key questions, such as:
 
 - Which department receives the most salary?
-- What is the number of candidates recruited each year?
+- What is the number of candidates according to the job level?
 - What is the number of employees according to their marital status?
-- What is the ratings of the employee according to their perfomance score?
+- What is the number employees according to their age breakdown?
 - Which gender has the most employee?
-- Which state has the most employees?
+- What is the number of employee according their job satisfaction?
 
 ### Findings
 
-1. The product department of the company received the most salary at a whooping sum of $12.5m over the years.
-2. 2011 has the most employee intake with a total of 83 candidates.
+1. The Research and Development department of the company received the most salary at a whooping sum of $6m over the years.
+2. the employee at the amateur level has the most intake with a total of 543 candidates.
 
-![HR Salary By Department](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/1fda3c49-ca52-448f-b22a-7e87852da6ee)
+<img width="242" height="163" alt="Hr Department Income" src="https://github.com/user-attachments/assets/07b0d3f4-7601-4228-917f-8228394df69e" />
 
-![HR Candidate Recruitment By Year](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/dfc894e8-0f0f-4358-a820-36c862a2a666)
+<img width="242" height="160" alt="Job Level Employee" src="https://github.com/user-attachments/assets/59483d96-aeb9-450a-ad40-15e13885e6e5" />
 
-3. Single makes up 44.05% of the total employees as regards marital status.
-4. The company record the highest number of employees who fully meets their target at a total of 243 candidates.
+3. Married staffs makes up 45.78% of the total employees as regards marital status.
+4. The company record the highest number of employees under the age bracket of 18-27 with a total number of 798 eomployees.
 
-![HR Candidate By Marital Desc](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/9df9ca2b-b8f9-4904-b44a-76ddcc835679)
+<img width="242" height="160" alt="Marital status employee" src="https://github.com/user-attachments/assets/3a4bf18d-1360-4191-bcf9-79e4dd9e7f21" />
 
-![HR Candidate By Perfomance Score](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/d75bbaa0-a448-4457-813d-bb7fa6f056c7)
+<img width="240" height="159" alt="Employee Age Breakedown" src="https://github.com/user-attachments/assets/23cd7294-41b8-4eef-afcd-feb0ec0d2ce6" />
 
-5. The male employees makes up 43.41% of the total employees while the female employees makes up 56.57% of the total employees gender wise.
-6. Employees from texas received the most salary at a combined $222,427.
 
-![HR Candidate By Sex](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/949599d4-d69e-4d51-89f8-aca4a8ad2af0)
+5. The male employees makes up 60% of the total employees while the female employees makes up 40% of the total employees gender wise.
+6. Employees who derives maximum satisfaction from the job top the chart with a total number of 459 Staffs.
 
-![HR Candidate By State](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/ab581701-c070-4421-bb6c-45cd24c89e5e)
+<img width="240" height="159" alt="Gender Employee" src="https://github.com/user-attachments/assets/d75d6a6b-b5ff-4405-a92a-ff0cd0e52309" />
+
+<img width="239" height="162" alt="Hr Job Satisfaction Level" src="https://github.com/user-attachments/assets/1a5e64a4-a3e6-4587-9bd4-b7b048eb2b24" />
 
 ### Dashboard
 
-![HR Dashboard](https://github.com/DarlingtonAlban/Darlington_Portfolio/assets/141925298/f028ce5c-70c1-4545-83e8-4923c72590d2)
+<img width="886" height="507" alt="Hr Dashboard Updated" src="https://github.com/user-attachments/assets/aafc6a3d-53f9-4635-89f0-bd2034051936" />
 
 ### Limitation
 1. I had to delete some columns which would have affected the accuracy of my analysis
-2. I had to replace null values with zero to avoid incosistency in my analysis
+2. I had to replace null values with zero to avoid inconsistency in my analysis
 
 
 # Project 3 : Grocery Inventory Analysis
@@ -268,7 +269,7 @@ In the initial data preparation phase, we performed the following tasks:
 I had to remove unecessary blanks that would have distorted the accuracy of my analysis and conclusions.
 
 
-# Project 4: Health Insurance Analysis
+# Project 4: Machine Usage Analysis
 
 ## Table Of Contents
 
@@ -284,16 +285,16 @@ I had to remove unecessary blanks that would have distorted the accuracy of my a
 
 ### Project Overview
 ---
-this data analysis project aims to provide insights into the amount spent on health insurance by individuals and families over the years.
-By analysing various aspect of the health insurance data set, i seek to identify trends and pattern and gain deeper understanding of how people prioritize their health.
+this data analysis project aims to provide insights into the number of time the machines used in daikibo factory breaks down every 1o minutes. i seek to identify trends and pattern and gain deeper understanding of what causes the breakdown.
 
 ### Data Source
 
-The primary dataset used for this analysis "insurance.csv" file was downloaded from kaggle, containing detailed information about amount spent on health insurance by individuals and families.
+The primary dataset used for this analysis "daikibo-telemetry-data.json" file was gotten from my intership simulation at delloite, containing detailed information about machine usage in the factory.
 
 ### Tools
 
-1.Excel - (Data Cleaning,Data Analysis & Creating Report)
+1.Excel - (Data Cleaning)
+2.Tableau - (Data Analysis & Creating Report)
 
 ### Data Cleaning
 
@@ -310,47 +311,28 @@ In the initial data preparation phase, we performed the following task:
 ### Exploratory Data Analysis
 EDA involved exploring the health insurance data to answer key question, such as:
 
-- What is the total amount spent by individuals and families on health insurance combined.
-- Which gender spent more on health insurance simultaneously.
-- What is the age range of the poeple that spent most on insuring their health
-- Which region spent more on health insurance.
-- who is more involved in health insurance between smokers and non-smokers.
-- the amount people of a various weight range sepnd on health insurance.
-- Which couples with children spent more on health insurance.
+- In which location the machines break the most.
+- What are the machine that breaks most often in those location.
 
 ### Results
 
-1. From the data below it shows that people spend alot of money to insurance their health which totals $17,755,824.9, meaning that people take their health very seriously as the old saying goes, health is wealth.
-2. gender wise men spent a remarkable $ $9,434,763.80 as opposed to the female counterpart with sum of  $8,321,061.19
-3. A total of $4,430,668.80 was spent by people between the age range of 48-57 as people within this age bracket are more vulnerable to health issues.
+1. From the data below it shows that the machine breaks more with a total of 480mins at the daikibo factory seiko located in osaka,japan.
 
-![Health Gender](https://github.com/user-attachments/assets/ac66faab-0067-40f4-8ef6-2325e69bcd37)
+<img width="364" height="220" alt="down time per factory" src="https://github.com/user-attachments/assets/fc8646d5-2258-44e7-b338-c5be1d5498db" />
 
-![Heath Age](https://github.com/user-attachments/assets/37d2e03f-6255-496f-9129-67fd2dd11ec4)
+2. The device that breaks the most is the "LaserWelder" device with a breakdown time of 480mins.
 
-4. The region that is most involved in health insurance is the southeast region which account for 30.21% of the total spendings on health insurance.
-5. Within the smokers status pool,non-smokers spends more on insuring their health with a total of $8,974,061.47
-
-![Health Region](https://github.com/user-attachments/assets/a63ce77b-aaf5-4d52-94dd-bf42cd81485a)
-
-![Health Smoker Status](https://github.com/user-attachments/assets/c7dedc71-a1e1-439c-9c1f-f87e64a02407)
-
-6. People who weight between 25.96-35.96 are more actively involved in health insurance.
-7. Couples with no children show the most interest in insuring their health sepnding a remarkable $7,098,070.00.
-
-![Health Children](https://github.com/user-attachments/assets/659bc09f-4917-467f-8cab-7bd50308f03a)
-
-![Health BMI](https://github.com/user-attachments/assets/49586dbc-6d5f-4e25-aff2-6f717be83321)
+<img width="364" height="220" alt="down time per factory" src="https://github.com/user-attachments/assets/dc9f9e6d-eaf3-479d-84c8-948bc9b14395" />
 
 ### Dashboard
 
-![Health Insurance Dashboard](https://github.com/user-attachments/assets/b4e8e121-db4b-4ebf-8df0-5c7de63174b5)
+<img width="648" height="551" alt="Factory dashboard" src="https://github.com/user-attachments/assets/54caa0f5-76f7-41cc-a521-12dc18bd18b7" />
 
 ### Recommendations
 
 Based on the analysis, i advice the following action:
-1. smokers should spend more health insurance more as they are pron to health issues.
-2. couples with children should prioritise the health of their children.
+1. The factory should develope a high maintenance culture.
+2. The factory should hire proffesional to handle the machines.
 
 ### Limitations
 
