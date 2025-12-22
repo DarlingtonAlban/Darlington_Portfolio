@@ -170,7 +170,7 @@ EDA involve exploring the HR data to answer key questions, such as:
 
 ### Dashboard
 
-<img width="886" height="507" alt="Hr Dashboard Updated" src="https://github.com/user-attachments/assets/aafc6a3d-53f9-4635-89f0-bd2034051936" />
+<img width="1191" height="541" alt="Hr Dashboard Updated" src="https://github.com/user-attachments/assets/aafc6a3d-53f9-4635-89f0-bd2034051936" />
 
 ### Limitation
 1. I had to delete some columns which would have affected the accuracy of my analysis
@@ -285,7 +285,7 @@ I had to remove unecessary blanks that would have distorted the accuracy of my a
 
 ### Project Overview
 ---
-this data analysis project aims to provide insights into the number of time the machines used in daikibo factory breaks down every 1o minutes. i seek to identify trends and pattern and gain deeper understanding of what causes the breakdown.
+this data analysis project aims to provide insights into the number of time the machines used in daikibo factory breaks down every 10 minutes. i seek to identify trends and pattern and gain deeper understanding of what causes the breakdown.
 
 ### Data Source
 
