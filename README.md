@@ -27,7 +27,7 @@ The primary dataset used for this analysis "product_sales_dataset.csv" file was 
 
 ### Data Cleaning
 
-1. Converted The Csv File to excel
+1. Converted The csv File to excel
 2. Formatted the data.
 3. Removed duplicates.
 4. Removed null values.
