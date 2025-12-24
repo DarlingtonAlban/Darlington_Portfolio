@@ -311,6 +311,11 @@ In the initial data preparation phase, we performed the following task:
 ### Exploratory Data Analysis
 EDA involved exploring the health insurance data to answer key question, such as:
 
+### Data Analysis
+```Tableau
+IF[Status]="unhealthy" THEN 10 ELSE 0 END
+```
+
 - In which location the machines break the most.
 - What are the machine that breaks most often in those location.
 
